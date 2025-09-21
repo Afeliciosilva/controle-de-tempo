@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Painel de Controle de Tempo</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main class="dashboard">
+            
+            <section class="profile">
+                <div class="profile__info">
+                    <img src="imagens/image-jeremy.png" alt="Foto de Jeremy" class="profile__avatar">
+                    <div>
+                        <p>Report for</p>
+                        <h1>Jeremy Robson</h1>
+                    </div>
+                </div>
+                <div class="profile__options">
+                    <button data-period="daily" class="active">Daily</button>
+                    <button data-period="weekly">Weekly</button>
+                    <button data-period="monthly">Monthly</button>
+                </div>
+            </section>
+
+            <section id="cards" class="cards"></section>
+
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
